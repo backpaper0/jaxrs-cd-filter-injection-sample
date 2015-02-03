@@ -10,10 +10,10 @@ $GLASSFISH_HOME/bin/asadmin deploy --name=sample --contextroot=sample build/libs
 
 ## Try access to URL
 
-1. http://localhost:8080/sample/ (401 Unauthorized)
-2. http://localhost:8080/sample/?username=xxx (401 Unauthorized)
-3. http://localhost:8080/sample/?username=sample (200 OK)
-4. http://localhost:8080/sample/ (200 OK)
+1. [http://localhost:8080/sample/](http://localhost:8080/sample/) (401 Unauthorized)
+2. [http://localhost:8080/sample/?username=xxx](http://localhost:8080/sample/?username=xxx) (401 Unauthorized)
+3. [http://localhost:8080/sample/?username=sample](http://localhost:8080/sample/?username=sample) (200 OK)
+4. [http://localhost:8080/sample/](http://localhost:8080/sample/) (200 OK)
 
 ## License
 
